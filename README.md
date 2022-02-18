@@ -242,7 +242,7 @@
 
  12. Сделать коммит в одну строку
 
- - `git add . | git commit -m" add preferences.xml skills.xml`
+ - `git add . | git commit -m "add preferences.xml skills.xml"`
  13. Отправить сразу 2 файла на внешний репозиторий
   - `git push`
 
@@ -378,7 +378,7 @@ Python. Learning the basics. Creating a client-server application
 
  12. Сделать коммит в одну строку
 
- - `git add . | git commit -m" add preferences.txt skills.txt`
+ - `git add . | git commit -m "add preferences.txt skills.txt"`
  13. Отправить сразу 2 файла на внешний репозиторий
   - `git push`
  14. На веб интерфейсе создать файл bug_report.txt
