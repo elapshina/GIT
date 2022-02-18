@@ -69,8 +69,7 @@
 	"Structures of HTTP requests and responses",
 	"What is JSON, XML. Their structure",
 	"API testing via Postman",
-	"Removing and reading logs from an external 
-    server",   
+	"Removing and reading logs from an external server",  
 	"Sniffing http web traffic via Charles and 
     Fiddler",
 	"Dev Tools of web browsers",
@@ -123,10 +122,10 @@
     "Summary":"Start page: The button to enter email is not clickable",
     "Descriprion":"{
     	"STR":{"1":"Run app",
-            "2":"Click button to enter email"},
+               "2":"Click button to enter email"},
     	"Actual result":"The button to enter email is not clickable",
     	"Expected result":"The button to enter email is clickable and an input field should appear"
-					},
+			  },
      "Environment":"Android 12", 
      "Attachment":"fghfmsk.mp4",
      "Lables": "email",
@@ -173,7 +172,7 @@
  - `vim new.xml`
  ```
  <information_about_me>
- 	<fullName>Ekaterina Lapshina</fullName>
+	<fullName>Ekaterina Lapshina</fullName>
 	<age>32</age>
 	<number_of_pets>0</number_of_pets>
 	<future_desired_salary>1000$<future_desired_salary>
@@ -194,7 +193,7 @@
 	<favorite_series>Squid Game</favorite_series>
 	<favorite_food>Pasta</favorite_food>
 	<favorite_season>Summer</favorite_season>
-	<country_you_would_like_to_visit>Portugal</country_you_would_like_to_visit>
+	<country_you_would_like_to_visit>Portugal<country_you_would_like_to_visit>
 </My_preferences>
 ```
 
