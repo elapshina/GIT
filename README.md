@@ -33,7 +33,7 @@
         "full_name":"Ekaterina Lapshina",
         "age":32,
         "number_of_pets":0,
-        "future_desired_salary":1000$
+        "future_desired_salary":"1000$"
  }
  ```
 
@@ -175,10 +175,12 @@
  7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML
  - `vim new.xml`
  ```
+ <information_about_me>
  <fullName>Ekaterina Lapshina</fullName>
 <age>32</age>
 <number_of_pets>0</number_of_pets>
-<future_desired_salary>400$</future_desired_salary>
+<future_desired_salary>1000$</future_desired_salary>
+</information_about_me>
 ```
 8. Отправить изменения на внешний репозиторий
 - `git add new.xml`
@@ -242,22 +244,22 @@
 </My_skills>
 ```
 
- 12. Отправить сразу 2 файла на внешний репозиторий
+ 12. Сделать коммит в одну строку
 
- - `git add .` 
- - `git commit -m"add preferences.xml skills.xml"`
- - `git push`
+ - `git add . | git commit -m" add preferences.xml skills.xml`
+ 13. Отправить сразу 2 файла на внешний репозиторий
+  - `git push`
 
- 13. На веб интерфейсе создать файл bug_report.xml
+ 14. На веб интерфейсе создать файл bug_report.xml
  - Войти в репозиторий XML
 - Нажать кнопку `Add file`
 - Выбрать `Create new file`
 - В поле Name your file ввести bug_report.xml
 
- 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
  - Нажать кнопку `Commit changes`
 
-15. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
 - открыть файл bug_report.xml
  - перейти в режим редактирования
 ```
@@ -283,10 +285,10 @@
     <Priority>medium</Priority>
   </bugReport>
   ```
-16. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
  - Нажать кнопку `Commit changes`
 
-17. Синхронизировать внешний и локальный репозиторий XML
+18. Синхронизировать внешний и локальный репозиторий XML
 - `git pull`
 
 # TXT
@@ -378,20 +380,21 @@ Scrum development methodology
 Python. Learning the basics. Creating a client-server application
 ```
 
- 12.  Отправить сразу 2 файла на внешний репозиторий
- - `git add .` 
- - `git commit -m"add preferences.txt skills.txt"`
- - `git push`
- 13. На веб интерфейсе создать файл bug_report.txt
+ 12. Сделать коммит в одну строку
+
+ - `git add . | git commit -m" add preferences.txt skills.txt`
+ 13. Отправить сразу 2 файла на внешний репозиторий
+  - `git push`
+ 14. На веб интерфейсе создать файл bug_report.txt
 - Войти в репозиторий TXT
 - Нажать кнопку `Add file`
 - Выбрать `Create new file`
 - В поле Name your file ввести bug_report.txt
 
- 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
  - Нажать кнопку `Commit changes`
  
- 15. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
  - открыть файл bug_report.txt
  - перейти в режим редактирования
  ```
@@ -409,7 +412,7 @@ Lables:email
 Severity:major
 Priority:medium
 ```
- 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
 - Нажать кнопку `Commit changes`
- 17. Синхронизировать внешний и локальный репозиторий TXT
+ 18. Синхронизировать внешний и локальный репозиторий TXT
  -  `git pull`
