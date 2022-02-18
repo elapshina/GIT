@@ -120,16 +120,13 @@
 ```
 {
     "Project":"Ewa",
-     "Summary":"Start page: The button to enter
-	  email is not clickable",
-     "Descriprion":"{
-     "STR":{"1":"Run app",
+    "Summary":"Start page: The button to enter email is not clickable",
+    "Descriprion":"{
+    	"STR":{"1":"Run app",
             "2":"Click button to enter email"},
-     "Actual result":"The button to enter email is
-	  not clickable",
-     "Expected result":"The button to enter email
-	  is clickable and an input field should
-	  appear"},
+    	"Actual result":"The button to enter email is not clickable",
+    	"Expected result":"The button to enter email is clickable and an input field should appear"
+					},
      "Environment":"Android 12", 
      "Attachment":"fghfmsk.mp4",
      "Lables": "email",
@@ -176,10 +173,10 @@
  - `vim new.xml`
  ```
  <information_about_me>
- <fullName>Ekaterina Lapshina</fullName>
-<age>32</age>
-<number_of_pets>0</number_of_pets>
-<future_desired_salary>1000$</future_desired_salary>
+ 	<fullName>Ekaterina Lapshina</fullName>
+	<age>32</age>
+	<number_of_pets>0</number_of_pets>
+	<future_desired_salary>1000$<future_desired_salary>
 </information_about_me>
 ```
 8. Отправить изменения на внешний репозиторий
@@ -283,7 +280,7 @@
     <Lables>email</Lables>
     <Severity>major</Severity>
     <Priority>medium</Priority>
-  </bugReport>
+</bugReport>
   ```
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
  - Нажать кнопку `Commit changes`
